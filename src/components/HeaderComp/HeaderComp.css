@@ -1,0 +1,17 @@
+.header-app{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    background: #dddee1;
+    color: #2f3541;
+    text-align: left;
+    padding-left: 30px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: bold;
+    border:1px solid #DDD;
+    z-index: 100;
+}

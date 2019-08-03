@@ -1,0 +1,52 @@
+{
+  "name": "victorazevedo-challange",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^24.0.16",
+    "@types/node": "12.6.8",
+    "@types/react": "16.8.23",
+    "@types/react-chartjs-2": "^2.5.7",
+    "@types/react-dom": "16.8.5",
+    "apexcharts": "^3.8.3",
+    "chart.js": "^2.8.0",
+    "enzyme": "^3.10.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-apexcharts": "^1.3.3",
+    "react-chartkick": "^0.3.2",
+    "react-dom": "^16.8.6",
+    "react-intl": "^2.9.0",
+    "react-rnd": "^10.0.0",
+    "react-scripts": "3.0.1",
+    "react-spinners": "^0.5.13",
+    "react-test-renderer": "^16.8.6",
+    "react-toasts": "^3.0.3",
+    "react-vis": "^1.11.7",
+    "typescript": "3.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watch",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.2"
+  }
+}

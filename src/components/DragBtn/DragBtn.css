@@ -1,0 +1,32 @@
+.drag-icon {
+    position: relative;
+}
+
+.drag-icon .ico {
+    width: 22px;
+    height: 10px;
+    background: #050506cc;
+    border-radius: 4px;
+    bottom: 0px;
+    left: 50%;
+    z-index: 101;
+    position: absolute;
+    cursor: move;
+}
+
+.drag-icon .line1, .drag-icon .line2 {
+    width: 10px;
+    height: 1px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    left: 6px;
+    z-index: 102;
+    position: absolute;
+    cursor: move;
+}
+.drag-icon .line1 {
+    bottom: 6px;
+}
+.drag-icon .line2 {
+    bottom: 3px;
+}

@@ -1,0 +1,99 @@
+.chart-container {
+    position: relative;
+    width: 100%;
+}
+
+.content-drag {
+    background: #2e3440;
+    margin-top: 58px;
+    color: white;
+    z-index: 99;
+}
+
+.drag-class {
+    cursor: default;
+}
+
+.chart-card {
+    /* margin-top: 270px; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    /* width: 550px; */
+    /* https://github.com/reactjs/react-chartjs/issues/97 */
+}
+
+.footer-app {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #dddee1;
+    position: fixed;
+    bottom: 0;
+    padding-left: 40px;
+}
+.apexcharts-toolbar{
+    left:50px;
+}
+.apexcharts-legend{
+    right:0 !important;
+}
+.btn-generate {
+    background: #017eff;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: none;
+    text-shadow: none;
+    border-style: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 11px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.card-data {
+    overflow: auto;
+    position: relative;
+}
+
+.card-data .txt-data {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    color: #a5a8ad;
+    height: 178px;
+    margin-top: 50px;
+    background: #2e3440 url(../../assets/img/textareanumbers.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 11px;
+    z-index: 101;
+    max-width: 97%;
+    border-bottom: 1px solid rgb(22, 22, 22);
+    line-height: 16px;
+    font-size: 12px;
+}
+.txt-data {
+    resize: vertical;
+}
+
+textarea.noResize {
+    resize: none;
+}
+
+.lineChartCont {
+    margin-top: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sweet-loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
