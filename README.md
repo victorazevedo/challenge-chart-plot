@@ -1,3 +1,32 @@
+## Common setup
+
+#### Clone the repo
+
+```bash
+git clone https://github.com/victorazevedo/challenge-chart-plot.git
+cd challenge-chart-plot
+```
+#### Install the dependencies
+
+```bash
+npm install
+```
+#### Start
+
+```bash
+npm run start
+```
+#### Test
+
+```bash
+npm run test
+```
+#### Build
+
+```bash
+npm run build
+```
+
 # Plotting a chart
 
 In this challenge, you will implement a web application that plots a line chart based on some manually input data.
